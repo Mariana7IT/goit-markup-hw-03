@@ -321,7 +321,7 @@ img {
     display: flex;
     margin-top: 72px;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 48px; 
 }
 
 .portfolio-item {
@@ -362,7 +362,7 @@ img {
 }
 
 .footer-container {
-    display: flex;
+    display: inline-block;
     align-self: stretch;
 }
 
@@ -375,10 +375,10 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-top: 140px;
-    margin-bottom: 16px;
     display: inline-block;
-    
+    margin: 0 auto;
+    padding-top: 100px;
+
 }
 
 .footer-logo-part{
@@ -393,6 +393,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    padding: 100px 0;
+    margin-top: 16px;
     
 }
 
