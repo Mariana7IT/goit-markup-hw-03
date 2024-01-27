@@ -302,6 +302,7 @@ img {
 
 .portfolio-container{
     padding:32px 16px;
+    border-top: none; 
     border: 1px solid #e7e9fc
 }
 
@@ -322,6 +323,7 @@ img {
     margin-top: 72px;
     flex-wrap: wrap;
     row-gap: 48px; 
+    column-gap: 24px; 
 }
 
 .portfolio-item {
@@ -357,7 +359,7 @@ img {
 
 .footer {
     background: #2E2F42;
-    padding: 0  15px;
+    padding: 100px 0 
     height: 312px;
 }
 
@@ -376,7 +378,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: inline-block;
-    margin: 0 auto;
+    margin-bottom: 16px; 
     padding-top: 100px;
 
 }
@@ -393,7 +395,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    padding: 100px 0;
     margin-top: 16px;
     
 }
