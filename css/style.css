@@ -178,7 +178,7 @@ img {
     margin-top: 48px;
     margin: auto;
     display: block;
-    
+    min-width: 169px;
     
 }
 .hero-btn:hover,
@@ -302,6 +302,7 @@ img {
 
 .portfolio-container{
     padding:32px 16px;
+    border: 1px solid #e7e9fc
 }
 
 .portfolio-title {
@@ -360,6 +361,12 @@ img {
     height: 312px;
 }
 
+.footer-container {
+    display: flex;
+    align-self: stretch;
+}
+
+
 .footer-logo {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -367,14 +374,16 @@ img {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     margin-top: 140px;
     margin-bottom: 16px;
     display: inline-block;
-    padding-bottom: 17,5px;
+    
 }
 
 .footer-logo-part{
-    color: #f4f4fd;
+    color: #f4f4fd
+   
 }
 
 .footer-text {
@@ -384,5 +393,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    
 }
 
