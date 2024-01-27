@@ -238,15 +238,11 @@ img {
 .team {
     padding: 120px 0;
     background: #F4F4FD;
-    max-width: 162px;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 28px;
+    
 }
 
 .team-container{
-    display: flex;
-    align-items: center ;
+    padding: ;
 }
 
 .team-title {
@@ -256,11 +252,7 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    max-width: 162px;
-    width: 100%;
-    margin: 0 auto;
     margin-bottom: 72px;
-    text-transform: capitalize;
     display:block;
 }
 
@@ -279,8 +271,7 @@ img {
     calc((100% - 72px) / 4)
 }
 
-.team-img {
-    margin-bottom: 32px;  
+.team-img { 
 }
 
 .team-subtitle {
@@ -298,7 +289,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 32px 0;
+    text-align: center;
 }
 
 /*========SECTION4-Portfolio========== */
@@ -322,7 +313,11 @@ img {
     text-transform: capitalize;
     display:block;
     margin-bottom: 72px;
+    display: block;
 }
+
+
+
 
 .portfolio-list {
     display: flex;
