@@ -377,10 +377,11 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    flex-shrink: 0;
     display: inline-block;
     margin-bottom: 16px; 
     padding-top: 100px;
-
+    margin-top: 16px;
 }
 
 .footer-logo-part{
@@ -395,7 +396,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 16px;
     
 }
 
