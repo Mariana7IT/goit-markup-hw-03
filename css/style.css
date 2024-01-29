@@ -321,7 +321,8 @@ img {
     margin-top: 72px;
     flex-wrap: wrap;
     row-gap: 48px; 
-    column-gap: 24px; 
+    column-gap: 24px;
+ 
 }
 
 .portfolio-item {
@@ -358,12 +359,10 @@ img {
 .footer {
     background: #2E2F42;
     padding: 100px 0;
-    height: 312px;
+    
 }
 
 .footer-container {
-    display: inline-block;
-    align-self: stretch;
 }
 
 
