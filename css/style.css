@@ -29,8 +29,8 @@ button{
 
 img {
     display: block;
-     max-width: 100%;
-     height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .header{
@@ -47,7 +47,7 @@ img {
 
 .header-container {
     display: flex;
-    align-items: center ;
+    align-items: center;
 }
 
 .section{
@@ -267,7 +267,7 @@ img {
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - 72px) / 4);
     gap: 24px;
-    calc((100% - 72px) / 4)
+    
 }
 
 .team-img { 
