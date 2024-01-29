@@ -327,6 +327,7 @@ img {
 
 .portfolio-item {
     flex-basis: calc((100% - 58px) / 3);
+    width: calc((100% -2 * 24px) / 3);
 }
 
 .portfolio-img {
