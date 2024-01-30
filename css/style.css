@@ -60,7 +60,7 @@ img {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    justify-content: space-between;
+    
 }
 
 .logo-nav{
@@ -293,7 +293,6 @@ img {
 }
 
 /*========SECTION4-Portfolio========== */
-
 .portfolio {
     background: #FFF;
     padding: 120px 0;
@@ -351,7 +350,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     border: #E7E9FC;
-    margin-bottom: 32px;
     align-self: stretch;
 }
 
@@ -378,8 +376,6 @@ img {
     flex-shrink: 0;
     display: inline-block;
     margin-bottom: 16px; 
-    padding-top: 100px;
-    margin-top: 16px;
 }
 
 .footer-logo-part{
